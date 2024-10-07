@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        // prompt box //
+
+    //    var a= prompt ('enter number of month')
+
+    //    switch(true){
+    //     case(a==1):document.write('jan')
+    //     break;
+    //     case(a==2):document.write('feb')
+    //     break;
+    //     case(a==3):document.write('mar')
+    //     break;
+    //     case(a==4):document.write('api')
+    //     break;
+    //     case(a==5):document.write('may')
+    //     break;
+    //     case(a==6):document.write('jun')
+    //     break;
+    //     case(a==7):document.write('jul')
+    //     break;
+    //     case(a==8):document.write('aug')
+    //     break;
+    //     case(a==9):document.write('sep')
+    //     break;
+    //     case(a==10):document.write('oct')
+    //     break;
+    //     case(a==11):document.write('nov')
+    //     break;
+    //     case(a==12):document.write('dec')
+    //     break;
+    //     default:document.write('enter the valid month number')
+    //    }
+
+
+
+    // function//
+    // function myIntro (){
+    //     document.write('I am shiva pal'); 
+    //     document.write('<br>I am shiva pal');
+    //     document.write('<br>')
+    //     document.write('<br>I am shiva pal');
+       
+    // }
+    // myIntro();
+    // myIntro();
+    // myIntro();
+    // myIntro();
+
+
+
+    // parameters function//
+    // function fullname(fname ='shiva', lname='pal'){
+    //     document.write('hello ' + fname + ' ' + lname)
+    // };
+    // fullname('milkha','singh')
+
+    // function sum (a,b){
+    //     document.write(a+b + '<br>')
+    // }
+
+    // sum(26,26)
+    // sum(27,28)
+    // sum(2,86)
+    // sum(6,6)
+
+
+
+    // return function//
+    // document.write('total Subject - 5 <br> Total marks - 500 <br> <br>')
+    // function sumMarks (hindi,eng,math,sci,phy){
+    //     var a=hindi+eng+math+sci+phy;
+    //     return a;
+    // };
+    // var b=sumMarks(80,50,50,50,80);
+    // document.write('Marks Obtain = '+b+'<br>')
+
+    // function percentage(tm){
+    //     var c= tm/500*100;
+    //     return c;
+    // };
+    // var d=percentage(b);
+    // document.write('percentage = ' + d + '%')
+
+
+
+    // mouse event//
+    // function fun(){
+    //     alert('Event Activated')
+    // }
+
+
+    // addEventListener//
+          document.getElementById('img1').addEventListener("mouseover", function(){
+            document.getElementById('img1').style.filter ='grayscale(0%)';
+          });
+          
+
+
+
+
+    </script>
+    <style>
+        /* #box{
+            width: 300px;
+            height: 250px;
+            background-color: green;
+            margin: 100px 0 0 150px;
+        } */
+
+        /* keybordevent */
+        /* body{
+            font-family: 'tahoma';
+            background: url("https://wp.missmalini.com/wp-content/uploads/2018/09/Traveller-In-India.jpg");
+            background-size: 500%;
+            background-position: -1600px -400px;
+        }
+        #form{
+            width: 250px;
+            margin: 100px auto 0 auto;
+            border: 2px solid #000;
+            border-radius: 15px;
+            padding: 25px;
+            background-color: rgba(0, 0, 0, .5);
+            color: #fff;
+            box-shadow: -2px 2px 15px #000;
+        }
+        p,input{
+            font-size: 20px;
+        }
+        input{
+       width: 225px;
+       border: 1px solid#000;
+       border-radius: 10px;
+       padding: 8px;
+       background-color: #fff;
+       box-shadow: inset -2px 2px 10px #000;
+        } */
+
+
+        /* addeventlistener */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        body{
+            font-family: Arial;
+        }
+        #wrapper{
+            margin: 25px auto 0 auto;
+            width: 75%; 
+        }
+        #wrapper h1{
+            display: block;
+            background-color: #203d3a;
+            color: #fff;
+            text-align: center;
+            line-height: 75px;
+            border-radius: 20px 20px 0px 0px;
+        }
+        #wrapper img{
+           width: 100%;
+           border-radius: 0px 0px 20px 20px;
+           cursor: pointer;
+           filter: grayscale(100%);
+        }
+        #block1 #block2{
+            width: 100%;
+            float: left;
+            margin-top: 25px;
+        }
+        /* #wrapper img:hover{
+        filter: grayscale(0%);
+        } */
+    </style>
+</head>
+<body>
+    
+    <!-- <div id="box" onmouseout="fun()"></div> -->
+
+
+    <!-- KeyboardEvent -->
+     <!-- <div id="form">
+        <h1 id="h1">KeyboardEvent</h1>
+        <p>onkeydown</p>
+        <input type="text" onkeydown="document.getElementById('form').style.background=this.value">
+        <p>onkeyup</p>
+        <input type="text" onkeyup="document.getElementById('form').style.background=this.value">
+        <p>onkeypress</p>
+        <input type="text" onkeypress="alert(this.value)">
+     </div> -->
+
+
+
+     <!-- addeventlistener -->
+      <div id="wrapper">
+        <div id="block1">
+            <h1>Enjoy Nature</h1>
+            <img src="https://www.wbcsd.org/wp-content/uploads/2023/10/Accelerating-business-along-the-road-to-a-nature-positive-future_i1140.jpg" id="img1">
+        </div>
+        <div id="block2">
+            <h1>Love Nature</h1>
+            <img src="https://onetreeplanted.org/cdn/shop/articles/nature_facts_1400x.jpg?v=1705008496" id="img2">
+        </div>
+      </div>
+</body>
+</html>
